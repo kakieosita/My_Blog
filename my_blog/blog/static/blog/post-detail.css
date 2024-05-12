@@ -1,0 +1,77 @@
+/* Ensure proper scaling */
+@viewport {
+  width: device-width;
+  initial-scale: 1;
+}
+
+body {
+  background-color: #e7e7e7;
+}
+
+/* Adjust navigation bar */
+#main-navigation {
+  background-color: #390281;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+}
+
+/* Adjust summary section */
+#summary {
+  margin: 4rem auto 2rem auto; /* Adjust margin for smaller screens */
+  padding: 1.5rem; /* Adjust padding for smaller screens */
+  width: 90%;
+  max-width: 90%; /* Adjust max-width for smaller screens */
+  border-radius: 16px;
+  background-color: #5706c0;
+  position: relative;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  height: auto; /* Remove fixed height */
+}
+
+#summary h2 {
+  font-size: 3rem; /* Adjust font size for smaller screens */
+  margin-bottom: 0.5rem; /* Adjust margin for smaller screens */
+}
+
+#summary article {
+  position: static; /* Remove absolute positioning */
+  padding: 1rem; /* Adjust padding for smaller screens */
+  text-align: left; /* Align text left for better readability */
+  margin-top: 1rem; /* Adjust margin for smaller screens */
+}
+
+#summary article img {
+  width: 100%; /* Adjust image width for smaller screens */
+  height: auto; /* Ensure aspect ratio is maintained */
+  border-radius: 12px;
+  transform: none; /* Remove rotation */
+  margin-bottom: 1rem;
+}
+
+/* Adjust comment form */
+#comment-form {
+  margin: 2rem auto; /* Adjust margin for smaller screens */
+  width: 90%;
+  max-width: 90%; /* Adjust max-width for smaller screens */
+}
+
+/* Adjust comment form button */
+#comment-form button {
+  padding: 0.5rem 1rem; /* Adjust padding for smaller screens */
+}
+
+/* Adjust comments section */
+#comments {
+  margin: 2rem auto; /* Adjust margin for smaller screens */
+  width: 90%;
+  max-width: 90%; /* Adjust max-width for smaller screens */
+  padding: 1rem; /* Adjust padding for smaller screens */
+}
+
+/* Adjust read later section */
+#read-later {
+  margin: 1rem 0; /* Adjust margin for smaller screens */
+}
+
+#read-later button {
+  padding: 0.5rem 1rem; /* Adjust padding for smaller screens */
+}
